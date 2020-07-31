@@ -17,6 +17,6 @@
     "url": "git+https://github.com/leeseean/yunmu2hanzi.git"
   },
   "devDependencies": {
-    "rollup": "^2.23.0",
+    "rollup": "^2.23.0"
   }
 }
