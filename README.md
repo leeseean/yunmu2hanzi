@@ -12,6 +12,6 @@ console.log(yunmu2hanzi('a'))
 // 输出所有韵母“a”的汉字
 ```
 # 效果
-![](./sample.PNG)
+![](https://leeseean.github.io/yunmu2hanzi/sample.PNG)
 
 
