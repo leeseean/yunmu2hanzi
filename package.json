@@ -4,7 +4,7 @@
   "description": "查找韵母对应的汉字",
   "main": "dist/main.js",
   "scripts": {
-    "build": "rollup index.js --file dist/main.js --format umd --name myBundle"
+    "build": "rollup index.js --file dist/main.js --format umd --name yunmu2hanzi"
   },
   "keywords": [
     "韵母",
@@ -16,6 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/leeseean/yunmu2hanzi.git"
   },
+  "homepage": "",
   "devDependencies": {
     "rollup": "^2.23.0"
   }

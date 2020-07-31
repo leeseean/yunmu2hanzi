@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
     typeof define === 'function' && define.amd ? define(factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.xxx = factory());
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.yunmu2hanzi = factory());
 }(this, (function () { 'use strict';
 
     var dict = {
@@ -29,10 +29,10 @@
         "ong": "容荣融绒溶蓉熔戎榕茸冗嵘肜狨蝾重种充冲涌崇虫宠忡憧舂茺铳艟从丛匆聪葱囱琮淙枞骢苁璁总从综宗纵踪棕粽鬃偬枞腙动东董冬洞懂冻栋侗咚峒氡恫胴硐垌鸫岽胨同通统童痛铜桶桐筒彤侗佟潼捅酮砼瞳恸峒仝嗵僮垌茼中重种众终钟忠仲衷肿踵冢盅蚣忪锺舯螽夂工公共供功红贡攻宫巩龚恭拱躬弓汞蚣珙觥肱廾红宏洪轰虹鸿弘哄烘泓訇蕻闳讧荭黉薨穷琼穹邛茕筇跫蛩銎窘炯迥炅冂扃空控孔恐倥崆箜龙隆弄垄笼拢聋陇胧珑窿茏咙砻垅泷栊癃农浓弄脓侬哝送松宋讼颂耸诵嵩淞怂悚崧凇忪竦菘雄兄熊胸凶匈汹芎用永拥勇涌泳庸俑踊佣咏雍甬镛臃邕蛹恿慵壅痈鳙墉饔喁"
     };
 
-    function index (key) {
+    function yunmu2hanzi(key) {
         return dict[key].split('').join('，')
     }
 
-    return index;
+    return yunmu2hanzi;
 
 })));
