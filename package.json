@@ -1,6 +1,6 @@
 {
   "name": "yunmu2hanzi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "查找韵母对应的汉字",
   "main": "dist/main.js",
   "scripts": {
