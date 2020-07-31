@@ -4,7 +4,7 @@
   "description": "查找韵母对应的汉字",
   "main": "dist/main.js",
   "scripts": {
-    "build": "webpack index.js --output-library-target=umd"
+    "build": "rollup index.js --file dist/main.js --format umd --name myBundle"
   },
   "keywords": [
     "韵母",
@@ -17,7 +17,6 @@
     "url": "git+https://github.com/leeseean/yunmu2hanzi.git"
   },
   "devDependencies": {
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "rollup": "^2.23.0",
   }
 }
