@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/leeseean/yunmu2hanzi.git"
   },
-  "homepage": "",
+  "homepage": "https://leeseean.github.io/yunmu2hanzi/",
   "devDependencies": {
     "rollup": "^2.23.0"
   }
