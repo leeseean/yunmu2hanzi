@@ -18,6 +18,6 @@
   },
   "homepage": "https://leeseean.github.io/yunmu2hanzi/",
   "devDependencies": {
-    "rollup": "^2.23.0"
+    "rollup": "^3.29.5"
   }
 }
